@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fraccionaladiversion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditarGrupo" />
+        <activity android:name=".IngresosDia" />
+        <activity android:name=".Intro_Screen" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityMenuLeccion" />
+        <activity android:name=".ActivityLeccion" />
+        <activity android:name=".Juego_Graficas" />
+        <activity android:name=".ProgresoEstActivity" />
+        <activity android:name=".InfoEstudianteActivity" />
+        <activity android:name=".DiaEspecificoActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".InfoGrupoActivity" />
+        <activity android:name=".PerfEstudianteActivity" />
+        <activity android:name=".PerfilProfesorActivity" />
+        <activity android:name=".RegistrarActivity" />
+        <activity android:name=".MostrarProgresoActivity" />
+        <activity android:name=".MostrarEstudiantesActivity" />
+        <activity android:name=".MenuProfesorActivity" />
+        <activity android:name=".MenuEstudianteActivity" />
+        <activity android:name=".ListaGruposActivity" />
+        <activity android:name=".JuegoSimplificarActivity" />
+        <activity android:name=".JuegoOperacionesActivity" />
+        <activity android:name=".CrearGrupoActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

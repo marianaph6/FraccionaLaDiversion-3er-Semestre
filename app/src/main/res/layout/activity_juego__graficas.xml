@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".Juego_Graficas">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Representa!"
+        android:textColor="#fff"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Con la fracción mostrada, elige la imagen que la representa"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:id="@+id/tvGnum1"
+        android:gravity="center_horizontal">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="____________"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:id="@+id/tvGnum2"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:background="@drawable/ic_restar">
+        </Button>
+
+        <ImageView
+            android:id="@+id/ivOpciones"
+            android:layout_width="207dp"
+            android:background="@drawable/gradient"
+            android:layout_height="259dp"></ImageView>
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_sumar">
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder"
+        android:background="@drawable/boton"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:id="@+id/btnResponder">
+    </Button>
+
+</LinearLayout>

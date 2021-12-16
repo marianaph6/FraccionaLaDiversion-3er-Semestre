@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".ActivityLeccion">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Lección"
+        android:textColor="#fff"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="400dp"
+        android:layout_height="418dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="134dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient"
+        android:drawableTop="@drawable/jugar"
+        android:text=" A Jugar"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:visibility="invisible"></Button>
+
+</LinearLayout>

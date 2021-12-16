@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "150048687288",
+    "firebase_url": "https://bdfraccionaladiversion.firebaseio.com",
+    "project_id": "bdfraccionaladiversion",
+    "storage_bucket": "bdfraccionaladiversion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150048687288:android:65f3375b7ffb03f941a04d",
+        "android_client_info": {
+          "package_name": "com.example.fraccionaladiversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150048687288-aa88v0enlvv2ttgib1tkrda7308eo5sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fraccionaladiversion",
+            "certificate_hash": "e97d06a2b0488c8b4cdb27a5367c7888863104c1"
+          }
+        },
+        {
+          "client_id": "150048687288-jqjmqav0elkuqb6u244hfc2vre1mvfr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMpuWDYKBzCFFOE6ddqNLyqNMbaLSVfGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150048687288-jqjmqav0elkuqb6u244hfc2vre1mvfr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

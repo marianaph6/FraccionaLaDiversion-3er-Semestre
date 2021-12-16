@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F67280"
+    tools:context=".Splash">
+
+    <TextView
+        android:id="@+id/splashtxt"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:text="¡Fracciona la diversión!"
+        android:fontFamily="@font/bangers"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"></TextView>
+
+    <ImageView
+        android:id="@+id/splashImg"
+        android:alpha="0"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"></ImageView>
+
+    <ImageView
+        android:id="@+id/splashKid"
+        android:alpha="0"
+        android:layout_width="280dp"
+        android:layout_height="330dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kidplaying"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"></ImageView>
+
+    <ImageView
+        android:id="@+id/splashOps"
+        android:alpha="0"
+        android:layout_marginTop="476dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/maths2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"></ImageView>
+</RelativeLayout>

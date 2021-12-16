@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".EditarGrupo">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="EDITAR GRUPO"
+        android:textColor="#fff"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Colegio"
+        android:textSize="20dp"></TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Colegio"
+        android:layout_gravity="center"
+        android:id="@+id/txtColegio">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grado"
+        android:textSize="20dp"></TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Grado"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/txtGrado">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/boton"
+        android:text="EDITAR GRUPO">
+    </Button>
+
+</LinearLayout>

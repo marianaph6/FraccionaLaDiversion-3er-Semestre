@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MenuProfesorActivity">
+
+
+    <TextView
+        android:id="@+id/InfoPerfProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="Welcome teacher"
+        android:textSize="25dp"></TextView>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:background="@drawable/profileteacher"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/btnEditarPerfin">
+            </Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/tvInfoPerfil">
+            </TextView>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_below="@+id/layout"
+        android:text="Mi perfil"
+        android:fontFamily="@font/bangers"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREAR NUEVO GRUPO"
+            android:background="@drawable/boton"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="#fff"
+            android:id="@+id/btnCrearGrupo"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VER GRUPOS"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/boton"
+            android:textColor="#fff"
+            android:id="@+id/btnListaGrupos"/>
+
+</LinearLayout>

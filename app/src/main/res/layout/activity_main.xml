@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_replay"
+        android:fontFamily="@font/bangers"
+        android:gravity="start" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/kidsstudying"></ImageView>
+    <ImageView
+        android:layout_below="@+id/btnvolver"
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/icon1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtFracciona"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bangers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRACCIONA LA DIVERSIÓN"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp">
+    </TextView>
+
+    <EditText
+        android:layout_below="@+id/txtFracciona"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/bangers"
+        android:background="#0E000000"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="Usuario"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/etUsuario"/>
+
+
+    <EditText
+        android:layout_below="@+id/etUsuario"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bangers"
+        android:layout_width="260dp"
+        android:textSize="20dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:id="@+id/etContra"/>
+
+
+    <TextView
+        android:layout_below="@+id/btnIngresar"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bangers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea una cuenta"
+        android:id="@+id/tvRegistrar"
+        android:layout_gravity="center"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:layout_below="@+id/etContra"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boton"
+        android:text="Ingresar"
+        android:gravity="center"
+        android:id="@+id/btnIngresar"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+</RelativeLayout>

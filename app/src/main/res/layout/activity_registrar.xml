@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".RegistrarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Documento **"
+        android:inputType="number"
+        android:id="@+id/etId">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Primer Nombre **"
+        android:id="@+id/etPrimerNombre">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Segundo Nombre"
+        android:id="@+id/etSegundoNombre">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Primer Apellido **"
+        android:id="@+id/etPrimerApellido">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Segundo Apellido"
+        android:id="@+id/etSegundoApellido">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email **"
+        android:id="@+id/etEmail">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu rol"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/rgTipo">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estudiante"
+            android:id="@+id/rbEstudiante"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profesor"
+            android:id="@+id/rbProfe"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID del grupo **"
+        android:visibility="invisible"
+        android:id="@+id/etIdGrupo">
+    </EditText>
+
+    <Button
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boton"
+        android:text="Regristrar"
+        android:id="@+id/btnRegistrar"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>

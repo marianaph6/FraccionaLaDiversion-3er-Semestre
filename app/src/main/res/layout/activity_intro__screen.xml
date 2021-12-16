@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE2C3"
+    tools:context=".Intro_Screen">
+
+    <ImageView
+        android:id="@+id/introBubble"
+        android:layout_width="600dp"
+        android:layout_height="310dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        android:src="@drawable/textbubble"></ImageView>
+
+    <ImageView
+        android:id="@+id/girlintro"
+        android:layout_width="320dp"
+        android:layout_height="800dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cartoongirl"
+        android:translationX="-70dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/btnSoyEstudiante"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="-95dp"
+        android:layout_marginTop="460dp"
+        android:layout_toRightOf="@id/girlintro"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/soyestudiante" />
+
+    <ImageView
+        android:id="@+id/btnSoyProfesor"
+        android:layout_below="@id/btnSoyEstudiante"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-95dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/girlintro"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/soyprofesor" />
+
+    <TextView
+        android:id="@+id/txtSoyEstudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSoyEstudiante"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@android:color/white"
+        android:text="Soy Estudiante"
+        android:textSize="23dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtSoyProfesor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/btnSoyProfesor"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="22dp"
+    android:fontFamily="@font/bangers"
+    android:textColor="@android:color/white"
+    android:text="Soy Profesor"
+    android:textSize="23dp"></TextView>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pointdown"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/introBubble"
+        android:layout_marginLeft="220dp"></ImageView>
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/bangers"
+        android:text="Bienvenidos a ¡Fracciona la diversión!, un espacio en el que, si eres un estudiante, te ayudaremos a mejorar tu aprendizaje con las fracciones, y si eres profesor, a llevar un segumiento más controlado del progreso de tus estudiantes!"></TextView>
+
+        <ImageView
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="-16dp"
+            android:layout_below="@+id/introText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maths"
+            android:adjustViewBounds="true"></ImageView>
+</RelativeLayout>

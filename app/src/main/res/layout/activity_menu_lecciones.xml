@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".ActivityMenuLeccion">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/educacion" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecciones"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona la lección que deseas ver"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnJuegoSimplificar"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient"
+            android:drawableTop="@drawable/simplificar"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="SIMPLIFICACIÓN" />
+
+        <Button
+            android:id="@+id/btnJuego2"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/gradient"
+            android:drawableTop="@drawable/matematicas"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="OPERACIONES" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:text="GRAFICAS"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/grafico"
+        android:background="@drawable/gradient"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:id="@+id/btnGraficas">
+    </Button>
+
+</LinearLayout>
